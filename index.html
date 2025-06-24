@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <script src="https://kit.fontawesome.com/1af0b633e4.js" crossorigin="anonymous"></script>
+<title>Document</title>
+</head>
+<body>
+  <div id="top"></div>
+ <nav>
+    <label class="logo">FitZone</label>
+
+    <!-- Hidden Checkbox for Toggle -->
+    <input type="checkbox" id="menu-toggle" class="menu-toggle"/>
+    
+    <!-- Hamburger Icon -->
+    <label for="menu-toggle" class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+
+    <!-- Navigation Links -->
+    <div class="nav-links">
+      <a href="#Home">Home</a>
+      <a href="#Program">Program</a>
+      <a href="#About">About</a>
+      <a href="#Plan">Plan</a>
+      <a href="#Contact">Contact</a>
+    </div>
+  </nav>
+  <section id="Home">
+  <section class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1>Push Your Limits</h1>
+      <p>Build strength, endurance, and confidence at FitZone Gym.</p>
+      <a href="#">Get Started</a>
+    </div>
+  </section>
+  </section> 
+
+  <!-- 2// -->
+   <section id="Program">
+   <h1>Workout Programs</h1>
+
+  <div class="card-container">
+
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-front">
+          <img src="./rajesh1.jpg" alt="Cardio Workout">
+          <h3>Cardio Training</h3>
+        </div>
+        <div class="card-back">
+          <p>Boost your endurance and burn calories with high-energy cardio workouts like running and cycling.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-front">
+          <img src="./rajesh (2).jpg" alt="Strength Workout">
+          <h3>Strength Training</h3>
+        </div>
+        <div class="card-back">
+          <p>Build muscle and core strength through intense resistance training and weight lifting exercises.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-front">
+          <img src="./rajesh 3.jpg" alt="HIIT Workout">
+          <h3>HIIT Workout</h3>
+        </div>
+        <div class="card-back">
+          <p>High-Intensity Interval Training to maximize results in less time with dynamic, explosive movements.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+   </section>
+  
+     <!-- 3// -->
+  <!-- gym workout plan -->
+   <h1>7-Day Gym Workout Plan</h1>
+
+<div class="workout-container">
+
+  <!-- MONDAY -->
+  <div class="workout-card">
+    <input type="checkbox" id="day1">
+    <label class="label-wrapper" for="day1">
+      <img src="./card1.jpg" alt="Chest">
+      <h2>Monday – Chest + Abs</h2>
+    </label>
+    <div class="card-details">
+      <ul>
+        <li>Bench Press – 5x5</li>
+        <li>Incline Dumbbell Press – 4x10</li>
+        <li>Cable Fly – 4x12</li>
+        <li>Crunches – 3x20</li>
+        <li>Plank – 3x60 sec</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- TUESDAY -->
+  <div class="workout-card">
+    <input type="checkbox" id="day2">
+    <label class="label-wrapper" for="day2">
+      <img src="./card2.jpg" alt="Back">
+      <h2>Tuesday – Back + Cardio</h2>
+    </label>
+    <div class="card-details">
+      <ul>
+        <li>Deadlifts – 5x5</li>
+        <li>Lat Pulldown – 4x10</li>
+        <li>T-Bar Rows – 3x12</li>
+        <li>Pull-ups – 3x10</li>
+        <li>Rowing Machine – 15 min</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- WEDNESDAY -->
+  <div class="workout-card">
+    <input type="checkbox" id="day3">
+    <label class="label-wrapper" for="day3">
+      <img src="./card3.jpg" alt="Leg Day">
+      <h2>Wednesday – Legs</h2>
+    </label>
+    <div class="card-details">
+      <ul>
+        <li>Back Squats – 5x5</li>
+        <li>Leg Press – 4x12</li>
+        <li>Walking Lunges – 3x10</li>
+        <li>Calf Raises – 4x20</li>
+        <li>Hamstring Curls – 3x15</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- THURSDAY -->
+  <div class="workout-card">
+    <input type="checkbox" id="day4">
+    <label class="label-wrapper" for="day4">
+      <img src="./card4.jpg" alt="Shoulders">
+      <h2>Thursday – Shoulders + Arms</h2>
+    </label>
+    <div class="card-details">
+      <ul>
+        <li>Overhead Press - 5x5</li>
+        <li>Lateral Raises – 4x12</li>
+        <li>Barbell Curl – 3x10</li>
+        <li>Tricep Dips – 3x12</li>
+        <li>Hammer Curls – 3x12</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- FRIDAY -->
+  <div class="workout-card">
+    <input type="checkbox" id="day5">
+    <label class="label-wrapper" for="day5">
+      <img src="./card5.jpg" alt="Functional">
+      <h2>Friday – Functional Training</h2>
+    </label>
+    <div class="card-details">
+      <ul>
+        <li>Kettlebell Swings – 4x20</li>
+        <li>Box Jumps – 3x15</li>
+        <li>Battle Ropes – 30 sec x 4</li>
+        <li>Wall Balls – 3x15</li>
+        <li>Farmer Carries – 3x30 sec</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- SATURDAY -->
+  <div class="workout-card">
+    <input type="checkbox" id="day6">
+    <label class="label-wrapper" for="day6">
+      <img src="./card6.jpg" alt="Full Body">
+      <h2>Saturday – Full Body</h2>
+    </label>
+    <div class="card-details">
+      <ul>
+        <li>Clean & Press – 5x3</li>
+        <li>Front Squats – 4x6</li>
+        <li>Pull-ups – 4x10</li>
+        <li>Push-ups – 3x15</li>
+        <li>Russian Twists – 3x30</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- SUNDAY -->
+  <div class="workout-card">
+    <input type="checkbox" id="day7">
+    <label class="label-wrapper" for="day7">
+      <img src="./card7.jpg" alt="Recovery">
+      <h2>Sunday – Recovery</h2>
+    </label>
+    <div class="card-details">
+      <ul>
+        <li>Stretching – 20 min</li>
+        <li>Yoga Flow – 30 min</li>
+        <li>Foam Rolling – 10 min</li>
+        <li>Light Walking – 20 min</li>
+        <li>Hydration & Rest</li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+
+
+<!-- 4// -->
+  <!-- about -->
+   <section id="About">
+  <section class="about-section">
+    <div class="about-text">
+      <h3>About FitZone</h3>
+      <p>At PowerZone Fitness, your transformation is our mission. We provide personalized workout programs crafted by top trainers, modern equipment, and a vibrant fitness community that supports you every step of the way.</p>
+      <p>Our gym focuses not only on physical strength but also on mental wellness, helping you build lifelong habits and confidence inside and outside the gym.</p>
+    </div>
+
+    <div class="about-img">
+      <img src="./gym5.jpeg" alt="Gym Training Image">
+    </div>
+  </section>
+
+  <section class="extra-section">
+    <h3>Why Train with PowerZone?</h3>
+    <p>We offer a complete fitness experience: advanced training systems, certified expert coaches, and a motivating environment built for every level of athlete. Whether you're chasing strength, weight loss, or peak conditioning — PowerZone has you covered.</p>
+
+    <div class="features">
+      <div class="feature-box">
+        <h4>Personal Coaching</h4>
+        <p>1-on-1 customized training plans tailored to your specific body goals and fitness levels.</p>
+      </div>
+      <div class="feature-box">
+        <h4>Smart Nutrition</h4>
+        <p>Full nutrition consultations to fuel your body for performance, fat loss, or muscle gain.</p>
+      </div>
+      <div class="feature-box">
+        <h4>24/7 Access</h4>
+        <p>Train anytime, any day. Our facility is open 24 hours for your convenience and lifestyle.</p>
+      </div>
+    </div>
+  </section>
+   </section>
+
+
+  
+
+ 
+  <!-- 5// -->
+    <h1>Client Reviews</h1>
+
+  <div class="review-container">
+
+    <div class="review-card">
+      <div class="reviewer">
+        <img src="./download-1.jpg" alt="User 1">
+        <div>
+          <div class="reviewer-name">Johncy</div>
+          <div class="stars">★★★★★</div>
+        </div>
+      </div>
+      <div class="review-text">
+        Best gym I've ever joined! Trainers are super helpful and equipment is top-notch. Highly recommended.
+      </div>
+    </div>
+
+    <div class="review-card">
+      <div class="reviewer">
+        <img src="./download (2).jpg" alt="User2">
+        <div>
+          <div class="reviewer-name">Sunitha william</div>
+          <div class="stars">★★★★☆</div>
+        </div>
+      </div>
+      <div class="review-text">
+        Love the environment here. Very clean and hygienic with good energy and music for workouts.
+      </div>
+    </div>
+
+    <div class="review-card">
+      <div class="reviewer">
+        <img src="./download (3).jpg" alt="User 3">
+        <div>
+          <div class="reviewer-name">Mohit Patel</div>
+          <div class="stars">★★★★★</div>
+        </div>
+      </div>
+      <div class="review-text">
+        I lost 10kg in 3 months. The personal training sessions are fantastic and truly motivating.
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-- 6// -->
+  <!-- pricing -->
+   <section id="Plan">
+   <section class="pricing-section">
+    <h2>Choose Your Plan</h2>
+
+    <div class="pricing-cards">
+      <div class="card">
+        <h3>Basic</h3>
+        <div class="price">$29<span>/mo</span></div>
+        <ul class="features">
+          <li>Access to gym equipment</li>
+          <li>1 personal training session</li>
+          <li>Locker room access</li>
+          <li>Free parking</li>
+        </ul>
+        <button class="btn">Join Now</button>
+      </div>
+
+      <div class="card">
+        <h3>Standard</h3>
+        <div class="price">$49<span>/mo</span></div>
+        <ul class="features">
+          <li>All Basic features</li>
+          <li>Weekly training session</li>
+          <li>Nutrition consultation</li>
+          <li>Group classes access</li>
+        </ul>
+        <button class="btn">Join Now</button>
+      </div>
+
+      <div class="card">
+        <h3>Premium</h3>
+        <div class="price">$79<span>/mo</span></div>
+        <ul class="features">
+          <li>Unlimited training sessions</li>
+          <li>Dedicated personal coach</li>
+          <li>Priority support</li>
+          <li>Full access to VIP area</li>
+        </ul>
+        <button class="btn">Join Now</button>
+      </div>
+    </div>
+  </section>
+   </section>
+
+  <section class="extra-info">
+    <h3>Flexible Membership Options</h3>
+    <p>We offer monthly, quarterly, and annual memberships with no hidden fees. Choose a plan that fits your fitness goals, lifestyle, and budget. All memberships come with 24/7 facility access, professional guidance, and full access to our gym services.</p>
+  </section>
+
+  <!-- 7// -->
+  <!-- contact -->
+   <section id="Contact">
+    <h1>Contact Our Gym</h1>
+
+  <div class="container">
+
+    <!-- Contact Info -->
+    <div class="contact-info">
+      <h2>Gym Address</h2>
+      <p><i>📍</i> 123 Fit Street, Muscle Town, MH 400001</p>
+      <p><i>📞</i> +91 98765 43210</p>
+      <p><i>📧</i> contact@powergym.in</p>
+      <p><i>🕒</i> Open: Mon - Sat (6 AM - 10 PM)</p>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="contact-form">
+      <h2>Send a Message</h2>
+      <form action="#">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <input type="text" placeholder="Subject" />
+        <textarea rows="5" placeholder="Your Message"></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+
+  </div>
+   </section>
+
+  <!-- 8// -->
+  <!-- Footer Section -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-box">
+        <h3>Fit Zone</h3>
+        <p>Build your body, transform your life. Join us today to reach your fitness goals.</p>
+      </div>
+
+      <div class="footer-box">
+        <h3>Quick Links</h3>
+        <p><a href="#">Home</a></p>
+        <p><a href="#">About Us</a></p>
+        <p><a href="#">Workouts</a></p>
+        <p><a href="#">Trainers</a></p>
+        <p><a href="#">Contact</a></p>
+      </div>
+
+      <div class="footer-box">
+        <h3>Follow Us</h3>
+        <div class="footer-social">
+          <a href="#">FB</a>
+          <a href="#">IG</a>
+          <a href="#">YT</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      &copy; 2025 Power Gym. All rights reserved.
+    </div>
+  </footer>
+
+
+
+<a href="#top" class="scroll-top">
+    <div class="arrow">&#8679;</div>
+  </a>
+
+
+
+</body>
+</html>
